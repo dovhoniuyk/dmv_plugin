@@ -42,8 +42,12 @@ require __DIR__ . '/ajax.php';
 require __DIR__ . '/class-plugin-cli-command.php';
 require __DIR__ . '/widget.php';
 require __DIR__ . '/shortcode.php';
+<<<<<<< HEAD
 require __DIR__ . '/metabox.php';
 require __DIR__ . '/search-route.php';
+=======
+
+>>>>>>> 00e6662019586564bf7af0c0740cdfac4f7f6464
 
 add_action('wp_enqueue_scripts', 'eventsdmv_register_assets');
 add_action('wp_enqueue_scripts', 'eventsdmv_events_scripts');

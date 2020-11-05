@@ -4,7 +4,6 @@ function eventsdmv_register_assets() {
 	wp_register_style('eventsdmv-events-style',plugins_url('/css/dmv-events-style.css', __FILE__));
 	wp_register_style('calendar_theme',plugins_url('/css/eventCalendar_theme_responsive.css', __FILE__));
 	wp_register_style('calendarcss',plugins_url('/css/eventCalendar.css', __FILE__));
-
 	wp_register_script('eventsdmv-events-scripts',plugins_url('/js/dmv-events-scripts.js', __FILE__), array('jquery'));
 	wp_register_script('loadmore',plugins_url('/js/loadmore.js', __FILE__), array('jquery'),'1.0', true);
 	wp_register_script('eventCalendar',plugins_url('/js/jquery.eventCalendar.js', __FILE__), array('jquery'),'1.0', true);
